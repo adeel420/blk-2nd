@@ -94,7 +94,7 @@ const Watch = () => {
         />
         <h1
           className="
-    text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[40px]
+    text-2xl sm:text-2xl md:text-5xl lg:text-7xl xl:text-[50px]
     flex flex-wrap items-center justify-center gap-4 font-bold sm:gap-6 md:gap-8 lg:gap-[30px]
     text-center
   "
@@ -145,7 +145,7 @@ const Watch = () => {
       <div className=" mt-[100px] bg-black text-white flex flex-col items-center px-4 pt-6 sm:px-8 md:px-12 lg:px-16  ">
         <h1
           className="
-    text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[40px]
+    text-2xl sm:text-2xl md:text-5xl lg:text-7xl xl:text-[50px]
     flex flex-wrap items-center justify-center gap-4 font-bold sm:gap-6 md:gap-8 lg:gap-[30px]
     text-center
   "
