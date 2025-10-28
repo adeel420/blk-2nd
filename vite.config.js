@@ -5,6 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  assetsInclude: ["**/*.mpeg", "**/*.mp3", "**/*.wav"],
   server: {
     proxy: {
       // All requests to /api will be proxied to your Google Apps Script
