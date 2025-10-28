@@ -49,7 +49,7 @@ const RSVP = () => {
       </div>
 
       {/* Popup - Highest z-index (renders last so it's on top) */}
-      <div className="fixed inset-0 flex items-center justify-center z-[50] top-[50%] mt-17 md:top-[0] pointer-events-none md:ml-[0%] ">
+      <div className="fixed inset-0 flex items-center justify-center z-[50] top-[50%] mt-17 md:mt-0 md:top-[0] pointer-events-none md:ml-[0%] ">
         <div className="pointer-events-auto">
           <Popup setPopup={setPopup} />
         </div>

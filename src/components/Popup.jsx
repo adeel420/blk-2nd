@@ -324,7 +324,8 @@ const Popup = ({ setPopup }) => {
 
           <form
             className={`popup-form space-y-2.5 sm:space-y-2 flex-1 flex flex-col justify-center z-[40] md:ml-1 ${
-              location.pathname === "/rsvp" ? "rsvp-form-mobile" : ""
+              (location.pathname === "/rsvp" ? "rsvp-form-mobile" : "",
+              location.pathname === "/rsvp" ? "md:ml-[-10px] " : "md:ml-[0px]")
             }`}
             onSubmit={handleSubmit}
           >
