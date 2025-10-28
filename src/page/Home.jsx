@@ -115,7 +115,7 @@ const Home = () => {
           <img
             src={assets.textLogo}
             alt="BLKNWS Logo"
-            className="h-[70px] self-center ml-[-20px] md:ml-0 sm:h-[100px] md:h-[130px] object-contain mb-4"
+            className="h-[70px] self-center ml-[-27px] md:ml-0 sm:h-[100px] md:h-[130px] object-contain mb-4"
           />
 
           <p
